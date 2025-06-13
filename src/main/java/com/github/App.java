@@ -1,11 +1,12 @@
-public class App 
-{
-    public static void main(String[] args)
-    {
-        System.out.println(new App().greet("world"));
+package com.github.jitpack;
+
+public class App {
+    public static String sayHello() {
+        return "Hello from App!";
     }
 
-    public String greet(String name) {
-        return "Hello " + name;
+    public static void main(String[] args) {
+        System.out.println(sayHello());
     }
 }
+
